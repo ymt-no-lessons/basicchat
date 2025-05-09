@@ -1,0 +1,29 @@
+.chat-container {
+  width: 300px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.chat-log {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #eee;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.chat-log div {
+  margin: 5px 0;
+}
+
+.user {
+  text-align: right;
+  color:blue;
+}
+
+.bot {
+  text-align: left;
+  color: green;
+}
